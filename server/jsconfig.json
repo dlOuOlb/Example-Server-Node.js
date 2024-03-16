@@ -1,0 +1,1 @@
+﻿{ "compilerOptions": { "module": "CommonJS", "target": "ESNext" } }

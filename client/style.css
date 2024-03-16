@@ -1,0 +1,27 @@
+﻿HTML { display: table; height: 100%; margin: auto; width: auto; }
+
+Body
+{
+	background-color: black;
+	color: goldenrod;
+	display: table-cell;
+	font-family: 'Consolas', 'Courier New', 'Courier', 'monospace';
+	font-size: xxx-large;
+	text-align: center;
+	vertical-align: middle;
+}
+
+Button
+{
+	background-color: goldenrod;
+	border-color: transparent;
+	border-radius: 8px;
+	color: black;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+Button:active { background-color: palegoldenrod; }
+Button:disabled { cursor: progress; opacity: 50%; }
+Button:hover { background-color: gold; }
