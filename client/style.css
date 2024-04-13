@@ -22,6 +22,7 @@ Button
 	font-size: inherit;
 }
 
-Button:active { background-color: palegoldenrod; }
-Button:disabled { cursor: progress; opacity: 50%; }
 Button:hover { background-color: gold; }
+Button:active { background-color: palegoldenrod; }
+Button:disabled { background-color: darkgoldenrod; cursor: progress; }
+Button::selection { text-decoration-line: underline; }

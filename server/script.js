@@ -29,7 +29,7 @@ else
 			else if (message.url === '/')
 				void response.writeHead(+307., { location: '/index.html' }).end(); // Temporary Redirect
 			else if (message.url in client)
-				void response.writeHead(+200., client[message.url].type).end(client[message.url].content); // OK
+				void response.writeHead(+200., client[message.url].headers).end(client[message.url].content); // OK
 			else
 				void response.writeHead(+404.).end(); // Not Found
 
